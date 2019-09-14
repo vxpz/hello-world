@@ -1,0 +1,17 @@
+Step 1) Go to
+https://www.google.com/preferences and set the results per page slider to the max (100)
+
+Step 2) Search the dork you wanna scrape and Ctrl A , Ctrl C the whole page
+
+Step 3) Go to
+https://axbom.se/files/extractor.htm
+
+Step 4) Paste everything you copied into the left box
+
+Step 5) Where it says “Separator:” Change Comma to new line
+
+Step 6) Press the extract button in the bottom left
+
+Step 7) in the right box will be your emails
+----------------------------------------------------------------------------------------------
+Use this for scraping ~vxp
